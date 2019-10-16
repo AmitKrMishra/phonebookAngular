@@ -39,4 +39,27 @@ ng serve --open
 http://locahost:4200
 
 
+<b>Basic Concepts:</b>
+Code compilation process in Angular:
+
+1)
+Applicaiton source code is written in Type Script.
+The code written in Type script are well structed and easier to understand 
+and to maintainable in large scale application.
+
+Type script code cannot be excuted directly by browser because browser understand 
+java script only. To over come this type script must converted into 
+java script.
+For doing this compiler (called tsc) is used to conver it into java-script code.
+
+2)
+Template(HTML): 
+Design logic is written in html. Instead of running the html login in directly 
+in browser, The angular compiler(called ngc) first converts the html logic into java-script code.
+And then browser execute the java-script code to generate the
+dom element. Thus the output appears in browser.
+The dom element can be dynamically manipulated by scripts and based on the changes to the applicaiton data.
+
+For example if the price of the product changing proramg same will be auto matically reflected in text box on the page.
+
 
