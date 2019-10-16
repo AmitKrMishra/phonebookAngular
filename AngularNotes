@@ -1,0 +1,42 @@
+
+1)
+https://nodejs.org/en/
+
+2)
+npm install @angular/cli -g
+
+3)
+ng new TaskManagerTestApp --style=scss --skip-install
+       <application name>   
+
+It will create the folder structure in your current directory
+
+4)
+npm install
+
+This command will install essential package which are required for run 
+angular application.
+List of package are specified in package.json and internally it will 
+read the list of dependency in package.json file and install them.
+
+5)
+http://code.visualstudio.com/docs/?dv=win
+Download visual studio code editor
+
+6)
+a).
+ng serve --open --port=5200 
+this commonad will compile and start executing the angular aplication.
+By Default port of angular is 4200 in case If you want to change the 
+port number you can use --port=5200
+
+Internally it used nodejs to run the applicaiton.
+
+http://locahost:5200
+
+b).
+ng serve --open
+http://locahost:4200
+
+
+
